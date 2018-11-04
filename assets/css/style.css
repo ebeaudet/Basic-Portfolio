@@ -4,6 +4,11 @@
     margin: 0 auto;
 }
 
+.link-container {
+    float:right;
+    padding-top: 20px;
+}
+
 .header {
     float:left;
     width:960px;
@@ -20,10 +25,23 @@
 }
 
 .about-link, .portfolio-link, .contact-link {
-    float:right;
     padding: 8px;
     padding-top: 50px;
+    height:25px;
 }
+
+
+.portfolio {
+    background: white;
+	width: 450px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 300px;
+    padding: 20px;
+    position: relative;
+    height:600px;
+}
+
 
 .pic-info{
     background: white;
@@ -98,7 +116,7 @@ footer{
 
 .contact-form{
     background: white;
-	width: 800px;
+	width: 900px;
     margin: auto;
     margin-top: 25px;
     margin-bottom: 500px;
@@ -106,16 +124,98 @@ footer{
     position: relative;
 }
 
+.form {
+    padding-top:20px;
+}
+
 .textbox{
     height: 20px;
-    width: 700px;
+    width: 875px;
     padding-top:10px;
 }
 
-.Portfolio {
-    background: white;
-	width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
+#txtMessage {
+    height: 100px;
 }
+
+.btnSubmit {
+    background-color: #4aaaa5;
+    color:white;
+}
+
+.imgHangman, .imgTriviaGame, .imgRPS {
+    float: left;
+    position: relative;
+    height:150px;
+    width:200px;
+    clear: both;
+}
+
+
+.imgInfoWidget, .imgRPGGame {
+    float: right;
+    position: relative;
+    height:150px;
+    width:200px;
+}
+
+
+.lblHangman {
+    position: absolute;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    top: 160px;
+    width:200px;
+	text-align: center;
+	opacity: .75;
+}
+
+
+.lblRPGGame {
+    position: absolute;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    top: 160px;
+    width:200px;
+	text-align: center;
+	opacity: .75;
+}
+
+
+.lbltriviaGame {
+    position: absolute;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    top: 160px;
+    width:200px;
+	text-align: center;
+	opacity: .75;
+}
+
+.lblInfoWidget {
+    position: absolute;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    top: 160px;
+    width:200px;
+	text-align: center;
+	opacity: .75;
+}
+
+
+.lblRPS {
+    position: absolute;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    top: 160px;
+    width:200px;
+	text-align: center;
+	opacity: .75;
+}
+
+
